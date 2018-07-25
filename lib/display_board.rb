@@ -8,8 +8,9 @@ def old_display_board
 end
 
 def display_board(board)
-  row1 = "#{board[0]}|#{board[1]}|#{board[3]}"
-  row2 = "#{board[0]}|#{board[1]}|#{board[3]}"
+  row1 = "#{board[0]}|#{board[1]}|#{board[2]}\n"
+  row2 = "#{board[3]}|#{board[4]}|#{board[5]}\n"
+  row3 = "#{board[6]}|#{board[7]}|#{board[8]}\n"
   
   
   row = "   |   |   \n"
