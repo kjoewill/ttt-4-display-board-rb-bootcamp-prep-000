@@ -12,8 +12,7 @@ def display_board(board)
   row2 = "#{board[3]}|#{board[4]}|#{board[5]}\n"
   row3 = "#{board[6]}|#{board[7]}|#{board[8]}\n"
   
-  
-  row = "   |   |   \n"
   seperator = "-----------\n"
-  puts row + seperator + row + seperator + row
+  
+  puts row1 + seperator + row2 + seperator + row3
 end
