@@ -18,4 +18,5 @@ def display_board(board)
     seperator = "-----------\n"
   
     puts row1 + seperator + row2 + seperator + row3
+  end
 end
