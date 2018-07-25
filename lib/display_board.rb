@@ -8,6 +8,10 @@ def old_display_board
 end
 
 def display_board(board)
+  row1 = "#{board[0]}|#{board[1]}|#{board[3]}"
+  row2 = "#{board[0]}|#{board[1]}|#{board[3]}"
+  
+  
   row = "   |   |   \n"
   seperator = "-----------\n"
   puts row + seperator + row + seperator + row
