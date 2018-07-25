@@ -8,7 +8,7 @@ def display_empty_board
 end
 
 def display_board(board)
-  if board.empty
+  if board.empty?
     display_empty_board
   else
     row1 = "#{board[0]}|#{board[1]}|#{board[2]}\n"
